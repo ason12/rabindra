@@ -674,6 +674,7 @@ section {
 .social-links {
   display: flex;
   gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 .social-link {
@@ -685,11 +686,6 @@ section {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-}
-
-.social-link:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
 }
 
 .social-icon {
@@ -791,6 +787,28 @@ section {
 
   .footer-contact p {
     justify-content: center;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+  }
+
+  .footer-brand {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section h3,
+  .footer-section .tagline {
+    text-align: center;
   }
 }
 
